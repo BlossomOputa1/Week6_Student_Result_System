@@ -30,6 +30,22 @@ python -m unittest -v
 
 The test command runs the complete `unittest` suite and reports each test.
 
+### Sample application output
+
+Running `python main.py` displays the generated student result and GPA. For the
+current example, the output includes:
+
+```text
+STUDENT RESULT
+Student Name: John
+Registration Number: CSC/2026/001
+Course Code: SWE 306
+Total: 87
+Grade: A
+Grade Point: 5
+GPA: 4.0
+```
+
 ## Code review: original routine (Step 11)
 
 The original `def x(a, b, c, n)` routine has several concrete weaknesses:
